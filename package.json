@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jesusbaqui/zebraprinter.git"
+    "url": "git+https://github.com/SantiagoValdez/zebraprinter.git"
   },
   "keywords": [
     "cordova",
@@ -31,5 +31,5 @@
       "version": ">=3.0.0"
     }
   ],
-  "homepage": "https://github.com/jesusbaqui/zebraprinter#readme"
+  "homepage": "https://github.com/SantiagoValdez/zebraprinter#readme"
 }
