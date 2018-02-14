@@ -18,7 +18,9 @@
     <platform name="android">
 
       <config-file target="AndroidManifest.xml" parent="/*">
-         <uses-permission android:name="android.permission.BLUETOOTH" />
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
       </config-file>
 	  <source-file src="src/android/ZebraPrinterPlugin.java" target-dir="src/cordova/plugin/zebraprinter" />
 
